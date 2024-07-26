@@ -1,0 +1,31 @@
+.lista{
+width: 400px;
+background-color: yellow;
+
+
+
+
+}
+.lista__item{
+  padding: 12px;
+
+border-bottom: solid 1px var(--color-2);
+
+
+
+
+}
+.lista__texto{
+
+
+
+
+
+}
+
+.lista__icono{
+
+
+
+
+}

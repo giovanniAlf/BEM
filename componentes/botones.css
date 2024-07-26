@@ -1,0 +1,137 @@
+.boton {
+
+  border: solid 1px blueviolet;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: 1s all;
+
+}
+.boton--borde {
+
+  border: solid 1px blueviolet;
+  background-color: white;
+  color: blueviolet;
+
+}
+
+button:hover {
+
+  background-color: white;
+  color: blueviolet;
+  border: blueviolet;
+  border: solid 1px blueviolet;
+}
+
+.boton--borde:hover {
+  background-color: blueviolet;
+  color: white;
+  border: white;
+  border: solid 1px white;
+}
+.boton--color-3 {
+
+  background-color: var(--color-4);
+  color: var(--color-1);
+  border: var(--color-5);
+  border: solid 1px var(--color-5);
+
+}
+
+.boton--color-3:hover {
+
+  background-color: var(--color-2);
+  color: var(--color-3);
+  border: var(--color-1);
+  border: solid 1px var(--color-1);
+
+}
+
+.boton--color-2 {
+
+  background-color: var(--color-2);
+  color: var(--color-3);
+  border: var(--color-5);
+  border: solid 1px var(--color-1);
+}
+
+.boton--color-2:hover {
+
+  background-color: var(--color-4);
+  color: var(--color-1);
+  border: var(--color-5);
+  border: solid 1px var(--color-5);
+}
+
+.boton--color-4:hover {
+
+  background-color: var(--color-2);
+  color: var(--color-5);
+  border: var(--color-5);
+  border: solid 1px var(--color-1);
+}
+
+.boton--color-4 {
+
+  background-color: var(--color-1);
+  color: var(--color-4);
+  border: var(--color-5);
+  border: solid 1px var(--color-3);
+}
+
+.boton--color-5 {
+
+  background-color: var(--color-2);
+  color: var(--color-5);
+  border: var(--color-5);
+  border: solid 1px var(--color-1);
+}
+
+.boton--color-5:hover {
+
+  background-color: var(--color-1);
+  color: var(--color-4);
+  border: var(--color-5);
+  border: solid 1px var(--color-3);
+}
+
+.boton--color-6:hover {
+
+  background-color: var(--color-3);
+  color: var(--color-5);
+  border: var(--color-5);
+  border: solid 1px var(--color-5);
+}
+
+.boton--color-6 {
+
+  background-color: var(--color-1);
+  color: var(--color-5);
+  border: var(--color-5);
+  border: solid 1px var(--color-1);
+}
+
+.boton--color-7 {
+
+  background-color: var(--color-3);
+  color: var(--color-5);
+  border: var(--color-5);
+  border: solid 1px var(--color-5);
+}
+
+.boton--color-7:hover {
+
+  background-color: var(--color-1);
+  color: var(--color-5);
+  border: var(--color-5);
+  border: solid 1px var(--color-2);
+}
